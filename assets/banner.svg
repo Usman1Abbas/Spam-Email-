@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Spam Email Classifier — TF-IDF + Logistic Regression spam/ham detection">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1b2a"/>
-      <stop offset="0.55" stop-color="#125a4d"/>
-      <stop offset="1" stop-color="#1b9c85"/>
+      <stop offset="0" stop-color="#2a1505"/>
+      <stop offset="0.55" stop-color="#9a3412"/>
+      <stop offset="1" stop-color="#f59e0b"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.82" cy="0.25" r="0.6">
-      <stop offset="0" stop-color="#e9c46a" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#e9c46a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#fde68a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fde68a" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="380" rx="20" fill="url(#glow)"/>
 
   <!-- MOTIF: envelope passing through a filter funnel (mail classification) -->
-  <g transform="translate(980,190)" stroke="#e9c46a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+  <g transform="translate(980,190)" stroke="#fde68a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
     <!-- envelope -->
     <rect x="-78" y="-72" width="156" height="104" rx="12"/>
     <path d="M-78 -64 L0 -8 L78 -64"/>
@@ -24,7 +24,7 @@
 
   <!-- wordmark -->
   <text x="80" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Spam Email Classifier</text>
-  <text x="84" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#e9c46a">NLP text classification · spam vs. ham</text>
-  <text x="84" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#dcefe9">TF-IDF feature extraction and Logistic Regression on 5,572 labelled messages.</text>
-  <text x="84" y="324" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9ec9bf">Python · scikit-learn · pandas · TF-IDF · Jupyter</text>
+  <text x="84" y="232" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#fde68a">NLP text classification · spam vs. ham</text>
+  <text x="84" y="288" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#fff7ed">TF-IDF feature extraction and Logistic Regression on 5,572 labelled messages.</text>
+  <text x="84" y="324" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#fdba74">Python · scikit-learn · pandas · TF-IDF · Jupyter</text>
 </svg>
